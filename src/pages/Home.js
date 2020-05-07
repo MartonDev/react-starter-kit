@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "react-router-dom"
 
 export default class Home extends React.Component {
 
@@ -6,7 +7,13 @@ export default class Home extends React.Component {
 
     return (
 
-      <div>Home page</div>
+      <div>
+
+        Home page
+        <br/>
+        <Link to="/about">About</Link>
+
+      </div>
 
     )
 
