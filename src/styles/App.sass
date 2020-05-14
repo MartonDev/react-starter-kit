@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap')
+@import "Variables"
+
+body
+  margin: 0
+  font-family: $roboto
+  font-weight: 400
+
+input, textarea, button
+  font-family: $roboto
+
+h1, h2, h3, h4, h5, h6
+  font-family: $poppins
+  font-weight: 700
+  margin: 0
+
+::selection
+  background-color: $theme-color
+  color: #fff
+
+::-moz-selection
+  background: $theme-color
+  color: #fff
+
+::-webkit-scrollbar
+  width: 10px
+
+::-webkit-scrollbar-track
+  background-color: #fff
+
+::-webkit-scrollbar-thumb
+  background: linear-gradient(135deg, $secondary-color, $theme-color)

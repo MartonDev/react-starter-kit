@@ -9,8 +9,7 @@ export default class Home extends React.Component {
 
       <div>
 
-        Home page
-        <br/>
+        <h1>Home</h1>
         <Link to="/about">About</Link>
 
       </div>

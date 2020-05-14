@@ -2,6 +2,9 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
+import './styles/Variables.sass'
+import './styles/App.sass'
+
 import Home from './pages/Home'
 import About from './pages/About'
 
